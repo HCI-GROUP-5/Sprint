@@ -1,66 +1,92 @@
-<?php
-  include_once "header.php";
-?>
-<?php
+<!DOCTYPE html>
+<html>
 
-$serverName ="localhost";
-$dBUSername ="root";
-$dBPassword ="";
-$dBName     ="bikinlagi";
+<head>
+    <title>Bikinlagi ID | Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="logo/logo.png">
+</head>
 
-$conn = mysqli_connect($serverName, $dBUSername,$dBPassword,$dBName);
+<body>
+    <?php
 
-if(!$conn){
-    die("connection failed :");
+    $serverName = "localhost";
+    $dBUSername = "root";
+    $dBPassword = "";
+    $dBName     = "bikinlagi";
 
-}
+    $conn = mysqli_connect($serverName, $dBUSername, $dBPassword, $dBName);
 
-?>
-
-<?php
-error_reporting(0);
-
-
-
-
-session_start();
-
-
-
-if(isset($_POST['submit'])){
-    $uid = $_POST['uid'];
-    $password = ($_POST['pwd']);
-
-    $sql = "SELECT * FROM `users` WHERE uid='$uid' AND pwd='$password'";
-    $result = mysqli_query($conn,$sql);
-    if($result->num_rows> 0){
-        $row = mysqli_fetch_assoc($result);
-        $_SESSION['name'] = $row['name'];
-        header("Location: index.php");
+    if (!$conn) {
+        die("connection failed :");
     }
-    else{
-        echo"<script>alert('Email atau Password Salah.')</script>";
+
+    ?>
+
+    <?php
+    error_reporting(0);
+
+
+
+
+    session_start();
+
+
+
+    if (isset($_POST['submit'])) {
+        $uid = $_POST['uid'];
+        $password = ($_POST['pwd']);
+
+        $sql = "SELECT * FROM `users` WHERE uid='$uid' AND pwd='$password'";
+        $result = mysqli_query($conn, $sql);
+        if ($result->num_rows > 0) {
+            $row = mysqli_fetch_assoc($result);
+            $_SESSION['name'] = $row['name'];
+            header("Location: index.php");
+        } else {
+            echo "<script>alert('Email atau Password Salah.')</script>";
+        }
     }
-}
 
-?>
+    ?>
 
-<div class="container">
-        <form action="" method="POST" class="login-email">
-            <p class="login-text" style="font-size: 2rem; font-weight: 800">Login</p>
-            <div class="input-group">
-                <input type="text" name="uid" placeholder="Username" value="<?php echo $uid; ?>" required>
-            </div>
-            <div class="input-group">
-                <input type="password" name="pwd" placeholder="Password" value="<?php echo $_POST['pwd']; ?>"required>
-            </div>
-            <div class="input-group">
-                <button name="submit" class="btn">Login</button>
-            </div>
-            <p class="login-register-text">Tidak Memiliki Akun? <a href="register.php">Daftar</a></p>
-        </form>
+
+    <img class="wave" src="img/wavy.png">
+    <div class="container">
+        <div class="img">
+            <img src="img/bg.png">
+        </div>
+        <div class="login-content">
+            <form action="" method="post">
+                <img src="logo/brand.png" class="brand"><!--dah bisa-->
+                <h2 class="title">Welcome</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Username</h5>
+                        <input type="text" name="uid" class="input" value="<?php echo $uid; ?>" required>
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Password</h5>
+                        <input type="password" name="pwd" class="input" value="<?php echo $_POST['pwd']; ?>" required>
+                    </div>
+                </div>
+                <a href="signup.php">Doesn't have account? Register here</a>
+                <input type="submit" name="submit" class="btn" value="Login">
+            </form>
+        </div>
     </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 
-  <?php
-  include_once "footer.php";
-?>
+</html>
