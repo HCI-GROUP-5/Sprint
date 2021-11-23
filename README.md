@@ -5,6 +5,7 @@
   
   
 ## Update
+  * Header Diperbagus
   * Ditambahkan Fungsi Register
   * Ditambahkan Fungsi Log in
   * Ditambahkan Fungsi Log out
