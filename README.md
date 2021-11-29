@@ -1,14 +1,12 @@
-# Sprint-2
+# Sprint-3
 
 ## Website URL
   https://bikin-lagi.000webhostapp.com/
   
   
 ## Update
-  * Header Diperbagus
-  * Ditambahkan Fungsi Register
-  * Ditambahkan Fungsi Log in
-  * Ditambahkan Fungsi Log out
+  * Shopping Cart Ditambahkan
+  * Tombol Home sekarang bekerja
 
 ## Known Bugs
   * Webhosting tidak menjalankan kode seperti yang diharapkan sehingga membuat tersendat di login page
