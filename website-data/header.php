@@ -12,14 +12,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikinlagi ID</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="bsl.css">
     <link rel="icon" href="logo/logo.png">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="#">
                 <img src="source/logo.png" alt="logo" width="60" height="60">
                 <img src="source/brand.png" alt="brand" class="img-fluid" width="150">
             </a>
@@ -35,12 +38,12 @@
             <div class="collapse navbar-collapse fw-normal fs-7 text-center" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a href="cart.php" class="cart">
+                  <a href="#" class="cart">
                     <img src="source/cart.png" alt="cart" width="27" class="img-fluid mt-1">
                   </a>
                 </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,9 +55,6 @@
                     <li><a class="dropdown-item" href="#">Painting</a></li>
                     <li><a class="dropdown-item" href="#">Drawing</a></li>
                   </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
               </li>
               <?php if (isset($_SESSION['name']) && !empty($_SESSION['name'])) {
               ?>
