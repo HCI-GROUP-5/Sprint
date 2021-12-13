@@ -156,24 +156,96 @@ include_once "header.php";
       <p>Here's one of our clients review about our work</p>
     </div>
   </div>
-  <div class="container">
-    <div class="cn-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col review">
-            <img src="https://i.pinimg.com/564x/f7/41/a8/f741a8e514f63e679d07b46b4faf67ba.jpg" alt="Carrick">
-          </div>
-          <div class="col text-start">
-            <img src="source/5-star.png">
-            <br>
-            <br>
-            <br>
-            <br>
-            <h6 class="fw-normal review-text">I am deeply happy with this picture. It looks really beautiful. It is my first hand made picture in my life
-              and I am very happy with it. I would like to thank to all company that organize evrything in
-              amazing way. I admire your website team, support you provide, all logistic chain, and off course artist's work.
-              Thank you, I have never expected the art will be so close to ordinary person like me. Thank you.
-            </h6>
+  <div class="container-fluid review-section">
+    <div class="review-body">
+      <div class="testimonials">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-review">
+                <div class="layer"></div>
+                <div class="content">
+                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <div class="imgBx">
+                    <img src="https://i.pinimg.com/originals/e6/68/ae/e668aee6a9496753b329e241e4105822.jpg" alt="carrick">
+                  </div>
+                  <div class="details">
+                    <h2>Carrick
+                      <br>
+                      <span>Customer</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-review">
+                <div class="layer"></div>
+                <div class="content">
+                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <div class="imgBx">
+                    <img src="img/Banning.jpg" alt="carrick">
+                  </div>
+                  <div class="details">
+                    <h2>John
+                      <br>
+                      <span>Customer</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-review">
+                <div class="layer"></div>
+                <div class="content">
+                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <div class="imgBx">
+                    <img src="img/Rachel.jpg" alt="carrick">
+                  </div>
+                  <div class="details">
+                    <h2>Rachel
+                      <br>
+                      <span>Customer</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-review">
+                <div class="layer"></div>
+                <div class="content">
+                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <div class="imgBx">
+                    <img src="img/Lily.jpg" alt="carrick">
+                  </div>
+                  <div class="details">
+                    <h2>Lily
+                      <br>
+                      <span>Customer</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-review">
+                <div class="layer"></div>
+                <div class="content">
+                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <div class="imgBx">
+                    <img src="img/Danny.jpg" alt="carrick">
+                  </div>
+                  <div class="details">
+                    <h2>Dany
+                      <br>
+                      <span>Customer</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
