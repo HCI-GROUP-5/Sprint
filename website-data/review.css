@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.review-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.review-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.testimonials {
+    position: relative;
+    max-width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent 70%, #0009);
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    margin: 20px;
+    min-height: 350px;
+    background: #fff;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+.testimonials .card-review {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #fcbf49;
+}
+
+.testimonials .card-review .layer {
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#d62828, #fcbf49);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.testimonials .card-review:hover .layer {
+    top: 0;
+}
+
+.testimonials .card-review .content {
+    position: relative;
+    z-index: 2;
+    transition: 0.7s ease-in-out;
+}
+
+.testimonials .card-review:hover .content {
+    transform: scale(1.1);
+}
+
+.testimonials .card-review .content p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #111;
+    transition: 0.5s ease-in-out;
+}
+
+.testimonials .card-review:hover .content p {
+    color: #fff;
+}
+
+.testimonials .card-review .content .imgBx img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4x solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials .card-review .content h2 {
+    color: #d62828;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.testimonials .card-review:hover .content h2 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.testimonials .card-review .content h2 span {
+    font-size: 22px;
+    color: #fcbf49;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.testimonials .card-review:hover .content h2 span {
+    color: #fff;
+}
