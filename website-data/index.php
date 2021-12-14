@@ -39,53 +39,55 @@ include_once "header.php";
 </div>
 
 
-<div class="cn-bsl">
-  <div class="container">
-    <div class="top-c">
-      <h2 class="fw-bold">
-        CATEGORY
-      </h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos.</p>
+<div class="bsl-body">
+  <div class="cn-bsl">
+    <div class="container">
+      <div class="top-c">
+        <h2 class="fw-bold">
+          CATEGORY
+        </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos.</p>
+      </div>
     </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col b1">
-        <div class="bsl">
-          <div class="bestseller img-fluid  bsl1 mx-auto d-block">
-            <div class="text">
-              <h2>
-                Anime
-              </h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col b1">
+          <div class="bsl">
+            <div class="bestseller img-fluid  bsl1 mx-auto d-block">
+              <div class="text">
+                <h2>
+                  Anime
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+              </div>
+              <span class="label"></span>
             </div>
-            <span class="label"></span>
           </div>
         </div>
-      </div>
-      <div class="col b2">
-        <div class="bsl">
-          <div class="bestseller img-fluid  bsl2 mx-auto d-block">
-            <div class="text">
-              <h2>
-                Painting
-              </h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+        <div class="col b2">
+          <div class="bsl">
+            <div class="bestseller img-fluid  bsl2 mx-auto d-block">
+              <div class="text">
+                <h2>
+                  Painting
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+              </div>
+              <span class="label"></span>
             </div>
-            <span class="label"></span>
           </div>
         </div>
-      </div>
-      <div class="col b3">
-        <div class="bsl">
-          <div class="bestseller img-fluid  bsl3 mx-auto d-block">
-            <div class="text">
-              <h2>
-                Poster
-              </h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+        <div class="col b3">
+          <div class="bsl">
+            <div class="bestseller img-fluid  bsl3 mx-auto d-block">
+              <div class="text">
+                <h2>
+                  Poster
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, maxime voluptate! Aliquid libero dolorum totam cum fugiat officiis natus nisi!</p>
+              </div>
+              <span class="label"></span>
             </div>
-            <span class="label"></span>
           </div>
         </div>
       </div>
@@ -161,11 +163,11 @@ include_once "header.php";
       <div class="testimonials">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide card">
               <div class="card-review">
                 <div class="layer"></div>
                 <div class="content">
-                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis debitis tempora praesentium excepturi sunt mollitia dicta sit optio commodi "</p>
                   <div class="imgBx">
                     <img src="https://i.pinimg.com/originals/e6/68/ae/e668aee6a9496753b329e241e4105822.jpg" alt="carrick">
                   </div>
@@ -178,11 +180,11 @@ include_once "header.php";
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide card">
               <div class="card-review">
                 <div class="layer"></div>
                 <div class="content">
-                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis debitis tempora praesentium excepturi sunt mollitia dicta sit optio commodi "</p>
                   <div class="imgBx">
                     <img src="img/Banning.jpg" alt="carrick">
                   </div>
@@ -195,11 +197,11 @@ include_once "header.php";
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide card">
               <div class="card-review">
                 <div class="layer"></div>
                 <div class="content">
-                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis debitis tempora praesentium excepturi sunt mollitia dicta sit optio commodi "</p>
                   <div class="imgBx">
                     <img src="img/Rachel.jpg" alt="carrick">
                   </div>
@@ -212,11 +214,11 @@ include_once "header.php";
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide card">
               <div class="card-review">
                 <div class="layer"></div>
                 <div class="content">
-                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis debitis tempora praesentium excepturi sunt mollitia dicta sit optio commodi "</p>
                   <div class="imgBx">
                     <img src="img/Lily.jpg" alt="carrick">
                   </div>
@@ -229,11 +231,11 @@ include_once "header.php";
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide card">
               <div class="card-review">
                 <div class="layer"></div>
                 <div class="content">
-                  <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum incidunt ipsa alias eum qui rerum facere magni corporis soluta?"</p>
+                  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reiciendis debitis tempora praesentium excepturi sunt mollitia dicta sit optio commodi "</p>
                   <div class="imgBx">
                     <img src="img/Danny.jpg" alt="carrick">
                   </div>
@@ -251,9 +253,11 @@ include_once "header.php";
       </div>
     </div>
   </div>
+  <br>  
   <br>
-  <br>
-
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
   <?php
   include_once "footer.php";
   ?>
