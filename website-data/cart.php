@@ -55,7 +55,7 @@ if (isset($_POST['add_to_cart'])){
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="text-center">Shopping Cart Date</h2>
+                    <h2 class="text-center">Item List</h2>
                     <div class="col-md-12">
                         <div class="row">
 
@@ -116,8 +116,8 @@ if (isset($_POST['add_to_cart'])){
                                 <td>".$value['quantity']."</td>
                                 <td>Rp.".number_format($value['price'] * $value['quantity'],2)."</td>
                                 <td>
-                                    <a href='cart.php?action=remove&id=".$value['id']."'>
-                                    <button class='btn btn-danger btn-block'>Remove</button>
+                                    <a href='siji.php'>
+                                    <button class='btn btn-primary btn-block'>Contact Artist</button>
                                     </a>
                                 </td>
                             " ;
