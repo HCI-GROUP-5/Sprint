@@ -25,8 +25,8 @@
 ### :globe_with_meridians: Links
     1.  Website : https://bikin-lagi.000webhostapp.com/
     2.  Video Demo :
-        a.  Demo Homepage : https://youtu.be/YjBfBaEzWEc
-        b.  Demo Login/Regiser : https://youtu.be/2PO89SEP-lc
-        c.  Demo Cart : https://youtu.be/fUnJWklWy3M
+        a.  :classical_building: Demo Homepage : https://youtu.be/YjBfBaEzWEc
+        b.  :adult: Demo Login/Regiser : https://youtu.be/2PO89SEP-lc
+        c.  :ballot_box: Demo Cart : https://youtu.be/fUnJWklWy3M
 
-    3. User Manual : https://github.com/HCI-GROUP-5/Sprint/blob/main/doc/Bikinlagi%20Website%20User%20Manual.pdf
+    3. :scroll: User Manual : https://github.com/HCI-GROUP-5/Sprint/blob/main/doc/Bikinlagi%20Website%20User%20Manual.pdf
