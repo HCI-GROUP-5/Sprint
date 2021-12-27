@@ -22,7 +22,7 @@
     3.  Indra Suparlan
         Indra bertugas membuat mockup website serta membantu anggota tim yang lain jika terjadi masalah.
 
-# :globe_with_meridians: Links
+### :globe_with_meridians: Links
     1.  Website : https://bikin-lagi.000webhostapp.com/
     2.  Video Demo :
         a.  :classical_building: Demo Homepage : https://youtu.be/YjBfBaEzWEc
